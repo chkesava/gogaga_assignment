@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand .logo {
+    width: 120px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #343a40;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.nav-link:hover {
+    color: #007bff;
+}
+
+.menu {
+    padding-left: 20px;
+}
+
+.circle {
+    border: 2px solid #343a40;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    max-width: 80px;
+}
+.hero{
+    background-image: url("/pexels-petra-nesti-1766376-27295736.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 40px 20px;
+}
+.heading{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph{
+    color: white;
+
+}
+.white-card{
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+button{
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 8px;
+}
+.custom-button{
+    color: black;
+    background-color:white;
+}
+.button-card{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+span{
+    font-size: 10px;
+}
+.card-con{
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    flex-grow: 1;
+
+}
+.align{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+input,select{
+    border: none;
+    background-color: white;
+    outline: none;
+   
+}
+::placeholder{
+    color: black;
+}
+.middle-card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-button{
+    width: 50px;
+}

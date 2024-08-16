@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGaga - Discover Your Next Adventure</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="gogaga.jpg" alt="GoGaga Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Membership  <i class="fas fa-gem"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gift Cards <i class="fas fa-gift"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link circle" href="#">
+                        <i class="fas fa-user"></i>
+                        <i class="fas fa-bars menu"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1 class="heading">Discover Your Next Adventure</h1>
+        <p class="paragraph">Unlock your path to advantage,start your journey of discovery-where every destination awaits your exploration</p>
+        <div class="white-card">
+            <div class="button-card">
+                <button>Packages</button>
+                <button class="custom-button">Tours</button>
+            </div>
+            <form class="align">
+                <div class="card-con">
+                    <span>Destination</span>
+                    <br/>
+                    <input type="text" placeholder="Enter the city"/>
+                </div>
+                <div class="card-con middle-card">
+                    <div>
+                        <span>Check-in</span>
+                        <br/>
+                        <input type="date" />
+                    </div>
+                    <div>
+                        <i class="fas fa-moon"></i>
+                        <br/>
+                        <p>1 Night</p>
+                    </div>
+                    <div>
+                        <span>Check-in</span>
+                        <br/>
+                        <input type="date" />
+                    </div>
+                </div>
+                <div class="card-con">
+                    <span>Guests and Rooms</span>
+                    <br/>
+                    <select>
+                        <option>2 adults,0 children,1 room</option>
+                    </select>
+                </div>
+                <button class="search-button">
+                    <i class="fas fa-search fa-lg" style="color: #e8eaee;"></i>
+                </button>
+            </form>
+            <div class="star-rating mt-3">
+                <button class="btn btn-dark">3 <i class="fas fa-star"></i></button>
+                <button class="btn btn-dark">4 <i class="fas fa-star"></i></button>
+                <button class="btn btn-outline-secondary">5 <i class="fas fa-star"></i></button>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
