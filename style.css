@@ -100,3 +100,12 @@ input,select{
 .search-button{
     width: 50px;
 }
+@media (max-width: 480px){
+    .middle-card{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
